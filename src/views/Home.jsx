@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 
 const featuredCats = [
-  { name: 'Whiskers', age: '2' },
-  { name: 'Mittens', age: '2' },
-  { name: 'Shadow', age: '1' },
+  { name: 'Whiskers', age: '2', breed: 'Persian' },
+  { name: 'Mittens', age: '2', breed: 'Siamese' },
+  { name: 'Shadow', age: '1', breed: 'Bengal' },
 ];
+
 
 export default function Home() {
   const [cats, setCats] = useState([]);
